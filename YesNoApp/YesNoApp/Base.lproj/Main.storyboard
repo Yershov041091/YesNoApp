@@ -19,8 +19,8 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space" translatesAutoresizingMaskIntoConstraints="NO" id="35R-Zk-j42">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GkJ-8m-sZC">
-                                <rect key="frame" x="72.333333333333329" y="366.33333333333331" width="248.66666666666669" height="119.66666666666669"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GkJ-8m-sZC">
+                                <rect key="frame" x="196.66666666666666" y="426" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="100"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -42,8 +42,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="w3l-Ih-TEr" secondAttribute="bottom" constant="106" id="Bta-j1-fjg"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="35R-Zk-j42" secondAttribute="trailing" id="CA6-rb-Cuf"/>
-                            <constraint firstItem="35R-Zk-j42" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KXV-5V-Flw"/>
+                            <constraint firstAttribute="trailing" secondItem="35R-Zk-j42" secondAttribute="trailing" id="CA6-rb-Cuf"/>
+                            <constraint firstItem="35R-Zk-j42" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KXV-5V-Flw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="w3l-Ih-TEr" secondAttribute="trailing" constant="54" id="SSk-YB-dYq"/>
                             <constraint firstItem="GkJ-8m-sZC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="X3F-Yo-dHn"/>
                             <constraint firstItem="35R-Zk-j42" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="kOK-fT-oy3"/>
